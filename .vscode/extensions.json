@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "hookyqr.beautify",
+        "coenraads.bracket-pair-colorizer",
+        "editorconfig.editorconfig",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "trixnz.go-to-method",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "njqdev.vscode-python-typehint",
+        "visualstudioexptteam.vscodeintellicode",
+        "mosapride.zenkaku",
+        "pkief.material-icon-theme",
+        "streetsidesoftware.code-spell-checker",
+        "ionutvmi.path-autocomplete",
+        "esbenp.prettier-vscode",
+        "mgesbert.python-path",
+        "shardulm94.trailing-spaces"
+    ]
+}
+
+

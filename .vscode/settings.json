@@ -1,0 +1,44 @@
+{
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "python.languageServer": "Pylance",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length", "128",
+        "--ignore", "E203,W503,E231"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--disallow-untyped-defs",
+        "--strict",
+        "--warn-return-any",
+        "--disallow-subclassing-any",
+        "--config-file", "mypy.ini"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "128"
+    ],
+    "autoDocstring.docstringFormat": "google",
+    "python.pythonPath": "/Users/kento.furuhashi/miniconda3/envs/dqn/bin/python",
+    "cSpell.ignoreWords": [
+        "keras",
+        "numpy",
+        "relu"
+    ],
+}
+
